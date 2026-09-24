@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marshal Ram | Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Contact Me</h1>
+    <p>Get in touch</p>
+
+    <nav aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" aria-current="page">Contact</a>
+    </nav>
+</header>
+
+<main>
+    <section>
+        <h2>Contact Form</h2>
+
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <fieldset class="form-group">
+                <legend>Gender:</legend>
+                <div class="inline-option">
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                </div>
+            </fieldset>
+
+            <fieldset class="form-group">
+                <legend>Interest:</legend>
+                <div class="inline-option">
+                    <input type="checkbox" id="technology" name="interest" value="technology">
+                    <label for="technology">Technology</label>
+
+                    <input type="checkbox" id="science" name="interest" value="science">
+                    <label for="science">Science</label>
+
+                    <input type="checkbox" id="art" name="interest" value="art">
+                    <label for="art">Art</label>
+                </div>
+            </fieldset>
+
+            <div class="form-group">
+                <label for="course">Course:</label>
+                <select id="course" name="course">
+                    <option value="">Select a course</option>
+                    <option value="bsc">BSc(Hons) Software Engineering</option>
+                    <option value="msc">MSc Computer Science</option>
+                    <option value="phd">PhD in Computer Science</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="about">Message:</label>
+                <textarea id="about" name="about" rows="6" placeholder="Tell me about yourself or write a message..."></textarea>
+            </div>
+
+            <input type="submit" value="Register">
+        </form>
+    </section>
+
+    <section class="external-links">
+        <h2>Useful Links</h2>
+        <a href="https://www.wikipedia.org" target="_blank" rel="noopener">Wikipedia</a>
+        <a href="https://www.github.com" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.stackoverflow.com" target="_blank" rel="noopener">Stack Overflow</a>
+        <a href="https://www.reddit.com" target="_blank" rel="noopener">Reddit</a>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2026 Marshal Ram. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
